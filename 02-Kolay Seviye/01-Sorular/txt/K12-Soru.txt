@@ -1,0 +1,9 @@
+Parametre olarak bir veya daha fazla kelimeyi alan ve beş veya daha fazla harfe sahip kelimeleri ters döndürecek şekilde döndüren bir fonksiyon yazın. String sadece harfler ve boşluklardan oluşacak. Boşluk sadece birden fazla kelime olduğunda dahil edilecek.
+
+Örnekler
+
+ters("Ters") ➞ "Ters"
+
+ters("Bu normal bir cümle.") ➞ "Bu lamron bir .elmüc"
+
+ters("Köpek büyük.") ➞ "kepöK .küyüb"

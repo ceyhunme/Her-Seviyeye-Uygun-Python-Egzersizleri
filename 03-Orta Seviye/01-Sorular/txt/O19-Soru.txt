@@ -1,0 +1,16 @@
+Sudoku, standart biçimde oluşturulmuş 9×9 boyutlarında bir diyagram üzerinde çözülen ve her satırda, her sütunda ve her 3×3 boyutluk karede, 1’den 9’a kadar olan rakamların birer kez yer alması gerektiği temeline dayanan bir zeka oyunu çeşididir.
+
+Sizden 2 boyutlu bir 3x3 sudokuyu inceleyip sudoku olup olmadığı inceleyen bir fonksiyon yazmanız bekleniyor. 
+
+* Tüm rakamlar olacak
+* Rakam tekrarı olmayacak
+
+sudoku_mu([[1, 3, 2], [9, 7, 8], [4, 5, 6]]) ➞ True
+
+sudoku_mu([[1, 1, 3], [6, 5, 4], [8, 7, 9]]) ➞ False
+
+sudoku_mu([[0, 1, 2], [6, 4, 5], [9, 8, 7]]) ➞ False
+
+sudoku_mu([[8, 9, 2], [5, 6, 1], [3, 7, 4]]) ➞ True
+
+

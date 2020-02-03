@@ -1,0 +1,14 @@
+Satrançta, vezirler herhangi bir karede  yatay, dikey veya çapraz olarak hareket edebilirler.
+
+Vezirinizin ve rakibinizin vezirinin yerini göz önüne alındığında, rakibinizin vezirini yakalayıp yakalayamayacağınızı belirleyin. Konumunuz ve rakiplerinizin konumu sırasıyla listenin birinci ve ikinci unsurlarıdır.
+
+Örnek
+
+vezir(["A1", "H8"]) ➞ True
+# Çapraz hareket edebilir
+
+vezir(["A1", "C2"]) ➞ False
+# A1'den C2'ye ulaşamaz.
+
+vezir(["G3", "E5"]) ➞ True
+

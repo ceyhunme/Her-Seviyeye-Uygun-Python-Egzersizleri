@@ -1,0 +1,9 @@
+Sayı ve string parametresi aldıktan sonra sayıyı geriye doğru sayan ve stringi ise büyük harflerle yazıp sonuna ünlem ekleyerek string döndüren bir fonksiyon yazın.
+
+Örnek
+
+geri_say(10, "kalkış") ➞ "10. 9. 8. 7. 6. 5. 4. 3. 2. 1. KALKIŞ!"
+
+geri_say(3, "go") ➞ "3. 2. 1. GO!"
+
+geri_say(5, "Ateş") ➞ "5. 4. 3. 2. 1. ATEŞ!"

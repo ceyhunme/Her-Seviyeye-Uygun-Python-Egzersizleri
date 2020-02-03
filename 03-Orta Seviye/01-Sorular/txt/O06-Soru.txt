@@ -1,0 +1,9 @@
+Sekiz tane 1 ve/veya sıfırdan oluşan bir liste verilecek. 8 bit ikili sayıyı alan ve onlu sisteme dönüştüren bir fonksiyon yazın.
+
+Örnekler
+
+ikilikten_onluga([1, 1, 1, 1, 1, 1, 1, 1]) ➞ 255
+
+ikilikten_onluga([0, 0, 0, 0, 0, 0, 0, 0]) ➞ 0
+
+ikilikten_onluga([1, 0, 1, 1, 1, 1, 0, 0]) ➞ 188

@@ -1,0 +1,17 @@
+Eğer ek harfler eklenebilir ve kelimeyle eşleşmek için harflerin çıkarılması gerekmezse bir girdi dizisi tamamlanabilir. Dahası string girdisindeki harflerin sırası son kelimedeki harflerin sırasıyla aynı olmalıdır.
+
+Bir string girdisi için kelimenin tamamlanabilir olup olmadığını belirleyen bir fonksiyon yazın.
+
+Örnekler
+tamamlanır_mı("gzel", "güzel") ➞ True
+# “g” ve “zel” arasına “ü” eklenebilir.
+
+tamamlanır_mı("gzela", "güzel") ➞ False
+# kelimede “a” harfi bulunmaz.
+
+tamamlanır_mı("zül", "güzel") ➞ False
+#“z”, “ü” ve “l” kelimede olsa da sıraları doğru değildir
+
+tamamlanır_mı("ggzl", "güzel") ➞ False
+# Çok fazla “g” var.
+

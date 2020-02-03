@@ -1,0 +1,12 @@
+Vural ve Fatih yakın arkadaşlar. Listede yan yana duruyorlarsa fonksiyon True döndürmeli. Aralarında isim varsa False döndürmeli.
+
+Örnekler
+arkadas(["Fatih", "Vural", "Emre"]) ➞ True
+
+arkadas(["Fatih", "Furkan", "Vural"]) ➞ False
+
+arkadas(["Ahmet", "Vural", "Fatih", "Mehmet"]) ➞ True
+
+Notlar:
+İlk önce kimin geldiğinden bağımsız olarak Fatih ve Vural yan yanayda sonuç True olmalı.
+Listede sadece bir Vural ve bir Fatih var.

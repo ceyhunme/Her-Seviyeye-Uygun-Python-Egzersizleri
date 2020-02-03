@@ -1,0 +1,3 @@
+İki yönden de aynı şekilde okunan sayılara palindromik sayılar denir. 2 haneli 2 sayıdan oluşturulabilecek en büyük palindrom değeri 9009’dur. (91 x 99)
+
+3 haneli iki sayıdan oluşturulabilecek en büyük palindromik sayıyı bulunuz.

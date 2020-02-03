@@ -1,0 +1,11 @@
+Boşluklara göre tam sayıları ayıran ve en büyük ve en küçük tam sayıları (string olarak) döndüren bir fonksiyon yazın.
+
+Örnekler
+
+buyuk_kucuk("1 2 3 4 5") ➞ "5 1"
+
+buyuk_kucuk("1 2 -3 4 5") ➞ "5 -3"
+
+buyuk_kucuk("1 9 3 4 -5") ➞ "9 -5"
+
+buyuk_kucuk("13") ➞ "13 13"

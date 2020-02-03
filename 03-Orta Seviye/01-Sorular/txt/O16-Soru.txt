@@ -1,0 +1,13 @@
+Sansürlü bir string ve sansürlü sesli harflerin verildiği durumda orijinal sansürsüz diziyi döndürün.
+
+Örnek
+
+sansür("abcd", "") ➞ "abcd"
+
+sansür("*r*b*m* p*rk *tt*m", "aaaıaei") ➞ "arabamı park ettim"
+
+Notlar:
+Sesli harfler doğru sırada verilmiştir.
+Sesli harf sayısı, sansürlü dizideki * karakter sayısıyla eşleşir.
+
+

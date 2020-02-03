@@ -1,0 +1,25 @@
+Bir üretici için çalışıyorsunuz ve sizden ürün satışından elde edilen toplam kârı hesaplamanızı istedi. Birim başına maliyet, birim başına satış ve başlangıç envanterini veren bir sözlük aldınız. En yakın lira değerine yuvarlayarak elde edilen toplam kârı döndürün. Tüm envanterin satıldığını varsayın.
+
+Örnekler
+kazanc({
+  "maliyet": 32.67,
+  "satış": 45.00,
+  "envanter": 1200
+}) ➞ 14796
+
+kazanc({
+  "maliyet": 225.89,
+  "satış": 550.00,
+  "envanter": 100
+}) ➞ 32411
+
+kazanc({
+  "maliyet": 2.77,
+  "satış": 7.95,
+  "envanter": 8500
+}) ➞ 44030
+
+Notlar:
+Kâr = Toplam Satış - Toplam Maliyet
+
+

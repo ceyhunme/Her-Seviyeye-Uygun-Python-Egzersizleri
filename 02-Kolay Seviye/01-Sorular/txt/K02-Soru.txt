@@ -1,0 +1,11 @@
+Girdi dizisi sadece büyük harf veya sadece küçük harf içeriyorsa True döndüren bir fonksiyon yazın.
+
+Örnekler
+
+ayni_mi("selam") ➞ True
+
+ayni_mi("SELAM") ➞ True
+
+ayni_mi("Selam") ➞ False
+
+ayni_mi("seLam") ➞ False

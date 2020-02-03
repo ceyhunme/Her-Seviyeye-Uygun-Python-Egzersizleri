@@ -1,0 +1,11 @@
+Bir stringi alan ve yeni stringi birbirini izleyen aynı harfleri çıkaran yeni bir stringi üreten bir fonksiyon oluşturun.
+
+Örnekler
+
+kısalt("seeeelaaam") ➞ "selam"
+
+kısalt("kkkkkeeeediii") ➞ "kedi"
+
+kısalt("aaarrraba") ➞ "araba"
+
+

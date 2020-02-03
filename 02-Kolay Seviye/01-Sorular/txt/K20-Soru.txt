@@ -1,0 +1,11 @@
+Çok fazla alt listesi olan bir listede orijinal değere dönen bir fonksiyon yazın.
+
+Örnekler
+sadelestir([[[[[[[[[[[[3]]]]]]]]]]]]) ➞ 3
+
+sadelestir([[[[[[[True]]]]]]]) ➞ True
+
+sadelestir([[[[[[[[[[[[[[[[['Merhaba']]]]]]]]]]]]]]]]]) ➞ 'Merhaba'
+
+Notlar:
+Sadece bir elemanı almanız gerekiyor.

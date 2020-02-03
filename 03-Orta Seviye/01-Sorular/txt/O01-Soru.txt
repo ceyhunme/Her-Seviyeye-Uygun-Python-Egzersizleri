@@ -1,0 +1,26 @@
+Semih ve Mehmet’in yarışan sümüklü böcekleri var. İkisinde de 3 tane var, yavaş (y), orta (o) ve hızlı (h). Semih’in sümüklü böcekleri Mehmet’in sümüklü böceklerinden daha güçlü olsa da Mehmet’in bir planı var. Planı:
+
+Raunt 1: [y, h] En yavaş böceği Semih’in en hızlı böceğine kurban et.
+Raunt 2: [o, y] Orta sümüklü böceğiyle Semih’in en yavaş böceğini yen.
+Raunt 3: [h, o] En hızlı böceğiyle Semih’in orta böceğini yen.
+Mehmet’in oyunu 2/3 oranında kazandığı durumda True çıktısı verecek şekilde Mehmet’in kazanıp kazamadığını belirleyen bir fonksiyon yazın.
+
+Fonksiyon girdileri:
+
+Liste 1: Mehmet için [y, o, h]
+Liste 2: Semih için [y, o, h]
+
+Örnekler
+mehmet_wins([3, 5, 10], [4, 7, 11]) ➞ True
+
+Karşılaşmalar (3, 11), (5, 4) ve (10, 7) olduğu için Mehmet 3’ünden 2’sini kazanır.
+
+mehmet_wins([6, 8, 9], [7, 12, 14]) ➞ False
+
+Karşılaşmalar (6, 14), (8, 7) ve (9, 12) olduğu için Semih 3’ünden 2’sini kazanır.
+
+mehmet_wins([1, 8, 20], [2, 9, 100]) ➞ True
+
+Notlar:
+Yarışan sümüklü böceğin hızı Semih’in yarışan sümüklü böceğinin hızını aşarsa Mehmet kazanır.
+Semih her zaman aşağıdaki sırada oynayacak: [h, y, o]

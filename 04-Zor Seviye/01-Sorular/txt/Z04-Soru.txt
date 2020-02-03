@@ -1,0 +1,45 @@
+Kelime değeri her karakterin sayısal değerlerinin toplanması ile elde edilir (boşluk ve noktalama işaretleri hariç): harflere 1 (“a”) ila 26 (“z”) (İngilizce dili) arasında bir değer verilir iken sayılar ise 0 ila 9 arasında gerçek değerler alırlar. Cümle değeri kelimelerin değerlerinin toplamıdır.
+
+cümle = “ABC ! abc ... @ 123"
+# Boşlukları, noktalama işaretlerini ve sembolleri çıkarın.
+
+cümle = ["ABC", "abc", "123"]
+
+kelimelerin değerleri = "ABC" = 1+2+3 = 6 | "abc" = 1+2+3 = 6 | "123" = 1+2+3 = 6
+
+cümle değeri = 6 + 6 + 6 = 18
+Bir cümle dizisi verildiğinde aşağıdaki sonucu döndüren bir fonksiyon yazın:
+
+Orijinal cümle değeri asal ise Asal Cümle.
+
+Cümle değeri asal değilse ama bir kelime çıkarıldıktan sonra yeni cümle değeri asalsa (daha iyi bir açıklamak için örnek 2’ye bakın) Neredeyse Asal Cümle. Ayrıca parantez içerisinde çıkardığınız kelimeyi yazmanız gerekmektedir.
+
+Cümle değeri asal değilse ve yeni cümle değerinin asal olması için birden fazla kelimenin çıkarılması gerekiyorsa (ya da asal olmuyorsa) Kompozit Cümle.
+
+Harf değerleri büyük harf-küçük harf duyarlı değildir ("aZ" = "Az" = 1 + 26 = 27); sayılar kelime olarak ele alınır ("123" = 1+2+3 = 6).
+
+Örnekler
+kelime_asallığı("Help me!") ➞ "Asal Cümle"
+# "Help" + "me" = 41 + 18 = 59 (asal)
+
+kelime_asallığı("42 is THE aNsWeR...") ➞ "Nerdeyse Asal Cümle (aNsWeR)
+# "42" + "is" + "THE" + "aNsWeR" = 6 + 28 + 33 + 80 = 147 (asal değil)
+# “42” olmadan yeni değer 141
+# “is” olmadan yeni değer 119
+# “THE” olmadan yeni değer 114
+# “aNsWeR” olmadan yeni değer 67
+# Eğer “aNsWeR” kelimesi çıkarılırsa yeni değer asal olur.
+
+kelime_asallığı("Did you smoke?") ➞ "Kompozit Cümle"
+# "Did" + "you" + "smoke" = 17 + 61 + 63 = 141 (asal değil)
+# “Did” olmadan yeni değer 124
+# “you” olmadan yeni değer 80
+# “smoke” olmadan yeni değer 78
+# Kelimelerin çıkarılması yeni cümle değerini asal yapmıyor
+
+Notlar:
+Sadece harfler ve sayılar cümlenin parçası.
+Eğer Neredeyse Asal Cümleyse, parantezler arasında çıkarılan kelime orijinal cümle ile aynı büyük harf-küçük harf şekline sahip olmalıdır (bkz. örnek 2).
+Eğer sadece bir kelime çıkarılarak birden fazla kelimeyi çıkarmaya gerek duymadan bir cümle değeri asal oluyorsa o cümle Neredeyse Asaldır.
+Sayılarla ilgili kuralı unutmayın: “10” bir kelimedir ve bu nedenle değeri 10 değil 1+0 şeklindedir.
+

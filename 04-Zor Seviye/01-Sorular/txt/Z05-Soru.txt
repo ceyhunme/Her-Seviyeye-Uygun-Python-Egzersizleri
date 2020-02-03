@@ -1,0 +1,36 @@
+Hapishane hücreler listesi olarak temsil edilebilir. Her hücre tam olarak bir mahkum içerir. 1 kilitli olmayan hücreleri ve 0 kilitli hücreleri gösterir.
+
+[1, 1, 0, 0, 0, 1, 0]
+En soldaki hücreden başlayarak göreviniz kaç mahkumu serbest bırakabileceğinizi görmek; ancak bir bit yeniği var. Bir mahkumu serbest bıraktığınızda kilitli olan hücre açılıyor ve kilitli olmayan hücre kilitleniyor.
+
+Buna göre aşağıdaki örneği kullanırsak:
+
+[1, 1, 0, 0, 0, 1, 0] 
+# 1. hücredeki mahkumu serbest bıraktınız.
+
+[0, 0, 1, 1, 1, 0, 1] 
+# 3. hücredeki mahkumu serbest bıraktınız (2. hücre kilitlendi).
+
+[1, 1, 0, 0, 0, 1, 0]
+# 6. hücredeki mahkumu serbest bıraktınız (3., 4. ve 5. hücre kilitlendi).
+
+[0, 0, 1, 1, 1, 0, 1]
+# 7. hücredeki mahkumu serbest bıraktınız - ve bitti!
+Burada toplamda 4 mahkumu serbest bıraktık.
+
+Bu benzersiz hapishane düzeninde serbest bırakılan mahkum sayısını döndüren bir fonksiyon yazın.
+
+Örnekler
+
+hapishaneden_kaçış([1, 1, 0, 0, 0, 1, 0]) ➞ 4
+
+hapishaneden_kaçış([1, 1, 1]) ➞ 1
+
+hapishaneden_kaçış([0, 0, 0]) ➞ 0
+
+hapishaneden_kaçış([0, 1, 1, 1]) ➞ 0
+
+Notlar:
+*Kilitlerin dönmesi için bir mahkumu serbest bırakmanız gerekiyor. [1, 1, 1] girdisine sahip ikinci örnekte ilk mahkumu bırakında kilit [0, 0, 0] oluyor. Tüm hücreler kilitli olduğu için daha fazla mahkum serbest bırakamazsınız.
+*Her zaman en soldaki öğeden (ilk hapishane hücresi) başlamalısınız. Eğer sağınızdaki tüm hapishane hücreleri sıfırsa daha fazla mahkumu serbest bırakamazsınız.
+*İlk kapı kilitliyse mahkum serbest bırakamazsınız

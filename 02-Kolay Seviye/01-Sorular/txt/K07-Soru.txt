@@ -1,0 +1,19 @@
+Tarihi alan ve doğru yüzyıla döndüren bir fonksiyon oluşturun.
+
+Örnekler
+
+yuzyil(1756) ➞ "18. yüzyıl"
+
+yuzyil(1555) ➞ "16. yüzyıl"
+
+yuzyil(1000) ➞ "10. yüzyıl"
+
+yuzyil(1001) ➞ "11. yüzyıl"
+
+yuzyil(2005) ➞ "21. yüzyıl"
+
+Notlar:
+
+1000 ve 2010 arasındaki tüm tarihler.
+11. yüzyıl 1001 ila 1100 arasında.
+18. yüzyıl 1701 ila 1800 arasında.

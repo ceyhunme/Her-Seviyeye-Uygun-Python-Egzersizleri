@@ -1,0 +1,15 @@
+Her girdi listesine iki tanesi hariç her rakam en az bir kere tekrarlıyor.
+
+İki benzersiz sayıyı döndüren bir fonksiyon yazın.
+
+Örnekler
+
+tekrarlanmayan([1, 9, 8, 8, 7, 6, 1, 6]) ➞ [9, 7]
+
+tekrarlanmayan([5, 5, 2, 4, 4, 4, 9, 9, 9, 1]) ➞ [2, 1]
+
+tekrarlanmayan([9, 5, 6, 8, 7, 7, 1, 1, 1, 1, 1, 9, 8]) ➞ [5, 6]
+
+Notlar:
+
+Çıktıda aynı sıralamayı tutun.

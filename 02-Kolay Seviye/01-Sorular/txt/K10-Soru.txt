@@ -1,0 +1,13 @@
+Ay ve günleri (tam sayı) olarak alan ve aydaki gün sayısını döndüren bir fonksiyon oluşturun.
+
+Örnekler
+
+gun(2, 2018) ➞ 28
+
+gun(4, 654) ➞ 30
+
+gun(2, 200) ➞ 28
+
+gun(2, 1000) ➞ 28
+
+*Artık yılın ne olduğunu bilmeniz gerekmektedir.

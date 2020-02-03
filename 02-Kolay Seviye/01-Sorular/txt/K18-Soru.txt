@@ -1,0 +1,12 @@
+Bir stringde ikinci kere “zip” geçen indeksi veya en az iki kere geçmiyorsa -1 döndüren bir fonksiyon yazın. 
+
+Örnekler
+
+zip("selam zip arıyorum zip ") ➞ 19
+zip("merhaba zip arıyorum") ➞ -1
+
+Notlar:
+
+Büyük harfli “Zip” ile küçük harfli “zip” aynı şey değildir.
+
+

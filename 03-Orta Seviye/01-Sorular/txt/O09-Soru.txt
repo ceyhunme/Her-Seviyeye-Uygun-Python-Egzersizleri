@@ -1,0 +1,20 @@
+Belirli bir aralıkta (aralık sınırları dahil) bir sayının kaç kere olduğunu sayan bir fonksiyon yazın. Fonksiyon şu şekilde görünecek:
+
+kac_tane(başlangıç, bitiş, sayı) ➞ sayının kullanılma sayısı
+
+Örnekler
+
+kac_tane(51, 55, 5) ➞ 6
+# [51, 52, 53, 54, 55] : 5 sayısı 6 kere geçiyor
+
+kac_tane(1, 8, 9) ➞ 0
+
+kac_tane(-8, -1, 8) ➞ 1
+
+kac_tane(71, 77, 2) ➞ 1
+
+Notlar:
+Aralıklar negatif olabilir
+başlangıç <= bitiş
+
+

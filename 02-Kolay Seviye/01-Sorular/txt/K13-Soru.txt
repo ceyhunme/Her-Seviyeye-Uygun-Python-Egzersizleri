@@ -1,0 +1,13 @@
+Stringi alan ve orta karakteri döndüren bir fonksiyon oluşturun. Eğer kelimenin uzunluğu tek ise orta karakteri dönün. Eğer kelimenin uzunluğu çift ise orta iki karaktere dönün.
+
+Örnekler
+
+ortanca("test") ➞ "es"
+
+ortanca("testing") ➞ "t"
+
+ortanca("orta") ➞ "rt"
+
+ortanca("A") ➞ "A"
+
+

@@ -1,0 +1,13 @@
+Bir sayıyı alan ve tüm çarpanlarını listeleyen bir fonksiyon yazın.
+
+Örnekler
+
+carpanlar(12) ➞ [1, 2, 3, 4, 6, 12]
+
+carpanlar(4) ➞ [1, 2, 4]
+
+carpanlar(17) ➞ [1, 17]
+
+Notlar:
+
+Çarpan, bir sayıyı kalan bırakmadan tam olarak bölen ayıdır. İkinci örnek 12/2=6 ve kalan 0 olduğu için 12’nin çarpanıdır.

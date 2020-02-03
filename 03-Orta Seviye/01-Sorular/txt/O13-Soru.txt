@@ -1,0 +1,13 @@
+Perrin dizisindeki her sayı bir sayının kendisinden iki önceki ve iki sonraki konumunun toplamı olarak oluşturulur. İlk üç sayının (3, 0, 2) olduğu bir durumda dizi şu şekilde genişletilir:
+
+P(0) P(1) P(2) P(3) P(4) P(5) P(6) P(7) ... P(n)
+3, 0, 2, 3, 2, 5, 5, 7, ...
+n değeri verildiğinde Perrin sayısı P(n) değerini döndürün.
+
+Örnekler
+
+perrin(1) ➞ 0
+
+perrin(8) ➞ 10
+
+perrin(26) ➞ 1497

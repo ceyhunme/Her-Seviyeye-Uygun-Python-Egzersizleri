@@ -1,0 +1,41 @@
+Sütun sayısı olarak a’dan h’ye bir karakter, satır sayısı olarak 1’den 8’e kadar bir tam sayı alan ve normal bir satranç tahtasında vezirin yerini temsil eden bir fonksiyon yazın. Bu iki boyutlu 8x8 listeyi döndürün.
+
+Bu liste sıfırlar ve birlerden oluşmalı. Birler vezirin bir kare hareket ettiği pozisyonları ve sıfırlar ise hareket edemediği pozisyonları gösterir.
+
+Örnekler
+
+vezir_kontrol("a", 1) ➞ [
+  [1, 0, 0, 0, 0, 0, 0, 1],
+  [1, 0, 0, 0, 0, 0, 1, 0],
+  [1, 0, 0, 0, 0, 1, 0, 0],
+  [1, 0, 0, 0, 1, 0, 0, 0],
+  [1, 0, 0, 1, 0, 0, 0, 0],
+  [1, 0, 1, 0, 0, 0, 0, 0],
+  [1, 1, 0, 0, 0, 0, 0, 0],
+  [0, 1, 1, 1, 1, 1, 1, 1]
+]
+
+vezir_kontrol("h", 4) ➞ [
+  [0, 0, 0, 1, 0, 0, 0, 1],
+  [0, 0, 0, 0, 1, 0, 0, 1],
+  [0, 0, 0, 0, 0, 1, 0, 1],
+  [0, 0, 0, 0, 0, 0, 1, 1],
+  [1, 1, 1, 1, 1, 1, 1, 0],
+  [0, 0, 0, 0, 0, 0, 1, 1],
+  [0, 0, 0, 0, 0, 1, 0, 1],
+  [0, 0, 0, 0, 1, 0, 0, 1]
+]
+ 
+vezir_kontrol("c", 8) ➞ [
+  [1, 1, 0, 1, 1, 1, 1, 1],
+  [0, 1, 1, 1, 0, 0, 0, 0],
+  [1, 0, 1, 0, 1, 0, 0, 0],
+  [0, 0, 1, 0, 0, 1, 0, 0],
+  [0, 0, 1, 0, 0, 0, 1, 0],
+  [0, 0, 1, 0, 0, 0, 0, 1],
+  [0, 0, 1, 0, 0, 0, 0, 0],
+  [0, 0, 1, 0, 0, 0, 0, 0]
+]
+Notlar:
+Vezir pozisyonda olduğu için bu sırada hareket edemeyeceğinden dolayı vezirin mevcut pozisyonu sıfırdır.
+

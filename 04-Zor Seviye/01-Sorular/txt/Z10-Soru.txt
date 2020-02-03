@@ -1,0 +1,13 @@
+Size beş kartlık bir koleksiyon verilecektir. Eliniz en az bir çift içeriyorsa, iki öğeden oluşan bir liste döndürün: Doğru ve en yüksek çiftin kart numarası (yalnızca bir tek çift varsa önemsizdir). Eğer çift yoksa False dönün.
+
+en_yüksek_çift(["A", "A", "Q", "Q", "6" ]) ➞ [True, "A"]
+
+en_yüksek_çift(["J", "6", "3", "10", "8"]) ➞ False
+
+en_yüksek_çift(["K", "7", "3", "9", "3"]) ➞ [True, 3]
+
+en_yüksek_çift(["K", "9", "10", "J", "Q"]) ➞ False
+
+en_yüksek_çift(["3", "5", "5", "5", "5"]) ➞ [True, 5]
+
+* A 'nın en değerli kart olduğunu unutmayın

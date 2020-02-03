@@ -1,0 +1,12 @@
+Girdi olarak 12 saatlik formatta verilen stringi 24 saatlik formata, eğer 24 saatlik verilmişse 12 saate çeviren bir fonksiyon yazınız.
+
+saat_cevir("12:00 am") ➞ "0:00"
+
+saat_cevir("6:20 pm") ➞ "18:20"
+
+saat_cevir("21:00") ➞ "9:00 pm"
+
+saat_cevir("5:05") ➞ "5:05 am"
+
+
+*12 saatlik format pm ve am içerip içermediğine göre kontrol edilecek.

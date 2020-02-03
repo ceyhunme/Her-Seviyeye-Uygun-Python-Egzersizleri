@@ -1,0 +1,10 @@
+a sayısını alan ve x üstü alındığında b sayısına eşit olan kayıp x üstel sayısını bulan bir fonksiyon yazın.
+
+Örnekler
+us_bul(4, 1024) ➞ 5
+
+us_bul(2, 16) ➞ 4
+
+us_bul(9, 3486784401) ➞ 10
+
+

@@ -1,0 +1,21 @@
+Masa tenisi oyunu her zaman Ping! ve sonrasında gelen Pong! sesinden oluşur. Bu nedenle eğer son ses olarak Pong! sesini duyarsanız 2. Oyuncunun kazandığını anlarsınız (Oyuncu 1 vuruşa karşılık veremez).
+
+Ping! listesi için her öğenin arasında Pong! yerleştiren bir fonksiyon yazın. Aynı zamanda:
+
+Kazanma True’ya eşitse listeyi Pong! ile bitirin.
+Kazanma False’a eşitse Ping! ile bitirin.
+
+Örnekler
+
+ping_pong(["Ping!", "Ping!", "Ping!"], True) ➞ ["Ping!", "Pong!", "Ping!", "Pong!", "Ping!", "Pong!"]
+
+ping_pong(["Ping!", "Ping!"], False) ➞ ["Ping!", "Pong!", "Ping!"]
+
+ping_pong(["Ping!"], True) ➞ ["Ping!", "Pong!"]
+
+Notlar:
+Her zaman topu döndürmelisiniz (Ponglar sizin).
+1. Oyuncu servis kullanıyor ve Ping! sesi çıkarıyor.
+Listeyle dönün.
+
+

@@ -1,0 +1,16 @@
+Camel Case (veya camelCase) kullanımı, ilk kelimenin küçük harfli ve diğer tüm kelimelerin ilk harflerinin ise büyük harfli olarak kullanıldığı durumdur. Kelimelerin arasında boşluk olmadığına dikkat edin.
+
+Diziyi alan ve camelCase’e döndüren bir fonksiyon oluşturun.
+
+Örnekler
+camelCasing("Hello World") ➞ "helloWorld"
+
+camelCasing("snake_case") ➞ "snakeCase"
+
+camelCasing("low high_HIGH") ➞ "lowHighHigh"
+
+Notlar:
+Tüm boşlukları ve alt çizgileri kaldırmanız gerekir.
+Girdi olarak sayı olmayacak.
+
+

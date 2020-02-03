@@ -1,0 +1,15 @@
+Hash algoritmaları bir yönden çok kolay olsa da geri döndürmek imkansızdır. Örneğin password123 gibi basit bir şeyi hash algoritmasına tabi tutarsanız size o kelime ya da cümleye özel uzun bir kod verir. İdeal durumda bunu geriye döndürmek mümkün değildir. Hash kodunu alıp ilk başladığınız kelime veya cümleye geri dönemezsiniz.
+
+Bir dizi için SHA-256 güvenlik hash değerini döndüren bir fonksiyon yazın. Hash on altılı sayı dizisi formatında olmalıdır.
+
+Örnekler
+
+sha256_hash("password123") ➞ "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f"
+
+sha256_hash("Fluffy@home") ➞ "dcc1ac3a7148a2d9f47b7dbe3d733040c335b2a3d8adc7984e0c483c5b2c1665"
+
+sha256_hash("Hey ahbap!") ➞ "14f997f08b8ad032dcb274198684f995d34043f9da00acd904dc72836359ae0f"
+
+*İpucu:
+Bir modül dahil etmeniz gerekmektedir.
+

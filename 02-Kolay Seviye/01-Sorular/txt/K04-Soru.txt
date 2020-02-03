@@ -1,0 +1,13 @@
+Bir çiftçi sizden tüm hayvanlarının bacak sayısını söylemeniz konusunda yardım istiyor. Çiftçide üç tür hayvan var:
+
+tavuk, inek, koyun *Sırasıyla
+
+Çiftçi hayvanlarını saydı ve size tüm türlerin alt toplamını verdi. Tüm hayvanların toplam bacak sayısını döndüren bir fonksiyonu uygulamanız gerekiyor.
+
+Örnekler
+
+hayvanlar(2, 3, 5) ➞ 36
+
+hayvanlar(1, 2, 3) ➞ 22
+
+hayvanlar(5, 2, 8) ➞ 50

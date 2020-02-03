@@ -1,0 +1,9 @@
+Sayılar listesini alan ve listede 7 sayısının olduğu durumlarda “Boom!” döndüren bir fonksiyon yazın. Diğer durumlarda “listede 7 yok” döndürün.
+
+Örnekler
+
+evreka([1, 2, 3, 4, 5, 6, 7]) ➞ "Boom!"
+
+evreka([8, 6, 33, 100]) ➞ "listede 7 yok"
+
+evreka([2, 55, 60, 97, 86]) ➞ "Boom!"

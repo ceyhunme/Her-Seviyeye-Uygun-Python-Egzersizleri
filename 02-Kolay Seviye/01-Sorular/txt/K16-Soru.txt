@@ -1,0 +1,16 @@
+Fibonnacci sayıları şu şekilde oluşturulur:
+
+F(0) = 0
+F(1) = 1
+...
+F(n) = F(n-2) + F(n-1)
+n. Fibonnaci sayısını hesaplayan bir fonksiyon yazın.
+
+Örnekler
+fib(0) ➞ 0
+
+fib(1) ➞ 1
+
+fib(2) ➞ 1
+
+fib(8) ➞ 21

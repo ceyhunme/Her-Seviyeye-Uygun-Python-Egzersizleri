@@ -1,0 +1,16 @@
+Pasta grafiği, her kategorinin sıklığının toplam sıklıkta tek bir sıklık yüzdesi olarak derece genliğinde bir dilim (veya dairesel alan) ile temsil edildiği veri setini temsil edilen dairesel bir grafiktir. Alanların derecelerini aşağıdaki adımlarla elde edebilirsiniz:
+
+Toplam frekansları hesaplayın.
+Toplam frekansı her kategorinin frekansına bölerek yüzdeleri hesaplayın.
+Her yüzdeyi 360 ile çarparak dereceye dönüştürün.
+Anahtarlar(dict.key) veri kategorilerini (harflerle temsil edilen) ve değerler de veri frekansları olan sözlük verilerine sahipsiniz. Aynı sözlük değerlerinin frekanslar yerine derecelere dönüştürülen değerleriyle pasta grafiğini döndüren bir haritayı içeren fonksiyon yazın. Son değerleri en yakın ondalığa yuvarlayın.
+
+Pasta Grafiği
+
+Örnekler
+
+pasta_grafigi({ "a": 1, "b":2 }) ➞ { "a": 120, "b": 240 }
+
+pasta_grafigi({ "a": 30, "b": 15, "c": 55 }) ➞ { "a": 108, "b": 54, "c": 198 }
+
+pasta_grafigi({ "a": 8, "b": 21, "c": 12, "d": 5, "e": 4 }) ➞ { "a": 57,6, "b": 151,2, "c": 86,4, "d": 36, "e": 28,8 }

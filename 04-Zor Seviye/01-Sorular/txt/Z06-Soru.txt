@@ -1,0 +1,57 @@
+Blok Adamında ana karakter sadece kutular belirli şekilde dizilirse yani her seferinde bir kutuya tırmanacak şekilde kutuya tırmanabiliyor. Daha açık ifade etmek gerekirse her seferinde sadece bir kutuda YUKARI veya AŞAĞIYA hareket edebiliyor.
+
+1'ler kutuları temsil ederken 0 ise arka planı temsil ediyor. Blok adamın ekranda verilen kısıtlara göre soldan sağa gidebildiği durumlarda True döndüren bir fonksiyon yazın.
+
+Örneğin aşağıdaki örnek yerleşimde sonuç True olmalıdır.
+
+[
+  [0, 0, 0, 0, X, 0, 0, 0, 0],
+  [0, 0, 0, X, 1, X, X, 0, 0],
+  [0, X, X, 1, 1, 1, 1, X, 0],
+  [X, 1, 1, 1, 1, 1, 1, 1, X]
+]
+Blok adam bu kutular arasında hareket edebilir (Not: X’ler sadece yürüme yolunu göstermektedir ve gerçek girdinin parçası değildir). Diğer yandan:
+
+[
+  [0, 0, 0, 0, 0, 0, 0, 0, 0],
+  [0, 0, 0, 1, 1, 0, 0, 0, 0],
+  [0, X, X, 1, 1, 1, 1, 0, 0],
+  [X, 1, 1, 1, 1, 1, 1, 1, 0]
+]
+Bu durum False döndürmelidir çünkü blok adam sütun 3’te kalır ve aynı anda 2 kutuya tırmanamaz.
+
+Örnekler
+
+blok_adam([
+  [0, 0, 0, 0, 0, 0, 0, 0, 0],
+  [0, 0, 0, 1, 0, 0, 0, 0, 0],
+  [0, 0, 1, 1, 0, 0, 1, 0, 0],
+  [0, 1, 1, 1, 1, 1, 1, 1, 0]
+]) ➞ False
+
+# Blok adam 2 blok aşağıya inemez.
+
+blok_adam([
+  [0, 0, 0, 0, 0, 0, 0, 0, 0],
+  [0, 0, 0, 1, 0, 0, 0, 0, 1],
+  [0, 0, 1, 1, 1, 0, 1, 1, 1],
+  [0, 1, 1, 1, 1, 1, 1, 1, 1]
+]) ➞ True
+
+# Not: Bazen çıkış en tepededir!
+
+blok_adam([
+  [0, 0, 0, 0, 0, 0, 0, 0, 0],
+  [0, 0, 0, 1, 0, 0, 0, 0, 0],
+  [0, 0, 1, 1, 1, 1, 1, 0, 0],
+  [0, 1, 1, 1, 1, 1, 1, 1, 0]
+]) ➞ True
+
+blok_adam([
+  [0, 0, 0, 0, 0, 0, 0, 0, 0],
+  [0, 0, 0, 1, 0, 0, 0, 0, 0],
+  [0, 1, 1, 1, 1, 1, 1, 0, 0],
+  [0, 1, 1, 1, 1, 1, 1, 1, 0]
+]) ➞ False
+
+# Blok adam 2 blok tırmanamaz.

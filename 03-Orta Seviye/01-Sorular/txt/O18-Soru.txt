@@ -1,0 +1,8 @@
+Girdi olarak string alan, her harfin türkçe alfabesindeki sırasını bulup topladıktan sonra çıkan sonuç çift ise True, tek ise False döndüren bir fonksiyon yazınız.
+
+Örnek
+
+kelime_çift_mi("Python")  ➞ False
+# 20 + 28 + 24 + 10 + 18 + 17 = 117 (Tek)
+
+

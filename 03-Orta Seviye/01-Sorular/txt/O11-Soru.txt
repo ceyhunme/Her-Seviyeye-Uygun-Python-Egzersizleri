@@ -1,0 +1,14 @@
+x, y ve z sayıları verildiğinde dik açılı bir üçgen olup olmadığını belirleyin.
+
+Örnekler
+
+dik_açılı(3, 4, 5) ➞ True
+# Bu durum klasik bir dik üçgen örneğidir.
+
+dik_açılı(145, 105, 100) ➞ True
+# Bu daha az bilinen bir örnektir.
+
+dik_açılı(70, 130, 110) ➞ False
+# Bu bir dik üçgen değildir.
+
+

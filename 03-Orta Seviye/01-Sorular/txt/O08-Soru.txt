@@ -1,0 +1,11 @@
+Malzeme listesi ve seçilen malzemeyi girdi olarak alın. Seçili malzemelerin çevresinde ekmek olacak şekilde listeyi tekrar döndüren bir fonksiyon yazın.
+
+Örnekler
+
+sandviç(['ton', 'salam', 'domates'], 'salam') ➞ ['ton', 'ekmek', ‘salam', 'ekmek', 'domates']
+
+sandviç(['peynir', 'marul'], 'peynir') ➞ ['ekmek', 'peynir', 'ekmek', 'marul']
+
+sandviç(['salam', 'salam'], 'salam') ➞ ['ekmek', 'salam', 'ekmek', 'ekmek', 'salam', 'ekmek']
+
+

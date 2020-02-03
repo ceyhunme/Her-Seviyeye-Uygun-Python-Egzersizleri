@@ -1,0 +1,9 @@
+Bir stringi alan ve içindeki harf ve sayıların sayısını hesaplayan bir fonksiyon yazın. Sonuçları sözlüğe döndürün.
+
+Örnekler
+
+say("Hello World") ➞ { "Harfler":  10, "Sayılar": 0 }
+
+say("H3ll0 Wor1d") ➞ { "Harfler":  7, "Sayılar": 3 }
+
+say("149990") ➞ { "Harfler": 0, "Sayılar": 6 }

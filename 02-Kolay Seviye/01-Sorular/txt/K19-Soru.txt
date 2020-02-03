@@ -1,0 +1,16 @@
+Bir stringi alan ve her kelimeyi aşağıdaki kurallara göre dönüştüren bir fonksiyon oluşturun:
+
+İlk ve son karakterleri aynı tutun.
+Ortadaki karakterleri - çizgi ile değiştirin.
+
+Örnekler
+saklı("herkese sevgiler") ➞ "h-----e s------r"
+
+saklı("kırmızı ve mavi") ➞ "k-----ı ve m--i"
+
+
+Notlar:
+
+İki ya da daha az harfe sahip kelimeler saklanmayacak.
+
+

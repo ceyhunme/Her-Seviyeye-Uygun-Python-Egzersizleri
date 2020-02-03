@@ -1,0 +1,14 @@
+Telefon numarası doğru formata sahipse True, yanlış formata sahipse False çıktısına dönen ve string girişini kabul eden bir fonksiyon oluşturun. 0-9 arasındaki herhangi bir rakamın (uygun yerlerde) geçerli bir telefon numarası oluşturacağını varsayın. Geçerli bir telefon numarası şu şekilde görünmektedir: 
+
+(123) 456-7890
+
+Örnekler
+
+dogru_format_mı("(123) 456-7890") ➞ True
+
+dogru_format_mı("1111)555 2345") ➞ False
+
+dogru_format_mı("098) 123 4567") ➞ False
+
+Notlar:
+Parantezi kapattıktan sonra boşluk eklemeyi unutmayın.

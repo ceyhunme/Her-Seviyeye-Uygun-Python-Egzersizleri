@@ -1,0 +1,27 @@
+h yüksekliğine göre Yılbaşı ağacı oluşturan bir fonksiyon yazın.
+
+Örnekler
+agac(1) ➞ [
+  "#"
+]
+
+agac(2) ➞ [
+  " # ",
+  "###"
+]
+
+agac(5) ➞ [
+  "    #    ",
+  "   ###   ",
+  "  #####  ",
+  " ####### ",
+  "#########"
+]
+
+agac(0) ➞ []
+
+Not:
+
+*Liste elemanları yan yana gözükebilir.
+
+
